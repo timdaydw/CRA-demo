@@ -5,6 +5,7 @@ import Input from './Input';
 
 function App() {
   const [inputValue,setInputValue] =useState(" ") ;
+  const [inputValue2,setInputValue2] =useState(" ") ;
   return (
     <div className="App">
       <header className="App-header">
@@ -22,6 +23,9 @@ function App() {
         </a>
         <Input id="testId" text="USER ID" value={inputValue} onChangeHandler={(e)=>{
           setInputValue(e.target.value);
+        }}/>
+        <Input id="testId2" text="USER ID2" value={inputValue2} onChangeHandler={(e)=>{
+          setInputValue2(e.target.value);
         }}/>
       </header>
     </div>
