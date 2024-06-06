@@ -33,7 +33,7 @@ function App() {
           $(function () {
             alert("jquery")
           })
-        }}>Primary</button>
+        }}>btn</button>
         <a
           className="App-link"
           href="https://reactjs.org"
